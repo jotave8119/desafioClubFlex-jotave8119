@@ -7,8 +7,6 @@ const NavBar = ({setDark}) => {
   const onDark = () =>{
     setDark((prev) => !prev)
   }
-      
-
 
   return (
     <nav className="topbar">
