@@ -1,18 +1,24 @@
 import CustomizedSwitches from "../CustomizedSwitches";
 import "./navbar.css";
 
-const NavBar = () => {
+const NavBar = ({setDark}) => {
+
+  const onDark = () =>{
+    setDark((prev) => !prev)
+  }
+      
   return (
     <nav className="topbar">
       <h2 className="logo">MedLife</h2>
       <div className="btnGroup">
-        <span>Serviços</span>
+        <span>Planos</span>
         <span>Sobre</span>
-        <span>Contatos</span>
-        <span>Assine</span>
+        <span>Parceiros</span>
       </div>
       <div className="switch">
-        <CustomizedSwitches/>
+        <button className="btnSwitch" onClick={() => onDark()}>
+          <CustomizedSwitches />
+        </button>
       </div>
     </nav>
   );
