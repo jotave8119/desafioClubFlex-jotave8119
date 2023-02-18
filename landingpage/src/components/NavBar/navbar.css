@@ -46,10 +46,11 @@
 
 span{
     font-size: 14px;
+    padding: 1px;
 }
 
 .btnGroup span:hover{
-    border-bottom: solid 1px #c2bfbf;
+    
     transition: 2s;
 }
 
