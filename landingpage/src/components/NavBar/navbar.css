@@ -36,3 +36,9 @@
     border-bottom: solid 2px #c2bfbf;
     transition: 2s;
 }
+
+@media(min-width:768px){
+   .btnGroup .span{
+    font-size: 17px;
+    }
+}

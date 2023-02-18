@@ -4,7 +4,7 @@ import "./navbar.css";
 const NavBar = () => {
   return (
     <nav className="topbar">
-      <h2 className="logo">Logo</h2>
+      <h2 className="logo">MedLife</h2>
       <div className="btnGroup">
         <span>Serviços</span>
         <span>Sobre</span>
