@@ -1,12 +1,15 @@
 import CustomizedSwitches from "../CustomizedSwitches";
 import "./navbar.css";
 
+
 const NavBar = ({setDark}) => {
 
   const onDark = () =>{
     setDark((prev) => !prev)
   }
       
+
+
   return (
     <nav className="topbar">
       <h2 className="logo">MedLife</h2>
@@ -17,6 +20,7 @@ const NavBar = ({setDark}) => {
       </div>
       <div className="switch">
         <button className="btnSwitch" onClick={() => onDark()}>
+
           <CustomizedSwitches />
         </button>
       </div>
