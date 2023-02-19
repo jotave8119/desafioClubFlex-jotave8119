@@ -14,12 +14,10 @@
     top: 0;
     left: 0;
     transition: 0.5s;
-    padding: 1.5px;
-    z-index: 20;
-    position: sticky;
+    z-index: 9999;
+    position: fixed;
     background-color: #ffffff;
     display: flex;
-    padding: 5px;
     justify-content: space-evenly;
     gap: 2px;
     align-items: center;
@@ -32,6 +30,7 @@
 .logo{
 
     font-size: 20px;
+    margin-left: 20px;
 }
 
 .logo:hover{
@@ -42,11 +41,15 @@
 
 .btnGroup{
     display: flex;
-    gap: 7px;
+
+
+    gap: 5px;
+
+
     font-weight: 600;
     cursor: pointer;
     padding: 5px;
-    margin-left: 5px;
+    margin-left: 3px;
 }
 
 .btnGroup span{
@@ -65,7 +68,6 @@ span{
 
 .btnSwitch{
     background-color: transparent;
-    margin-left: 3px;
 }
 
 @media(min-width:768px){
