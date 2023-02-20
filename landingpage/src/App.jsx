@@ -7,6 +7,7 @@ import './App.css';
 import "./dark.css";
 import Depositions from './components/Depositions';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
      <Partnes/>
      <Depositions/>
      <ContactForm/>
+     <Footer/>
    </div>
   );
 }
