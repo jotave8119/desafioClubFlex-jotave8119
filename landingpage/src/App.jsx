@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Partnes from './components/Partnes';
 import './App.css';
 import "./dark.css";
+import Depositions from './components/Depositions';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
      <ImgTitle/>
      <About/>
      <Partnes/>
+     <Depositions/>
    </div>
   );
 }

@@ -55,6 +55,26 @@
     box-shadow: #13daa5 0px 3px 8px;
 }
 
+.dark .depoContent{
+    background-color: #323030;
+}
+
+.dark .depoTitle{
+    color: #ffffff;
+}
+
+.dark .depoList{
+    background-color: #323030;
+    color: #ffffff;
+    box-shadow: #13daa5 0px 3px 8px;
+}
+ .dark .depoList span{
+    color: #ffffff;
+ }
+
+ .dark .depoList p{
+    color: #ffffff;
+ }
 
 
 
