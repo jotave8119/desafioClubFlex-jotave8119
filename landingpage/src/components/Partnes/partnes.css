@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.partnesContent{
+    width: 100%;
+    height: 550px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 0.5s;
+}
+
+.partnesTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+/* .partnesCards{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    animation: fadeIn 1s;
+} */
+
+.partnesList{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    transition: 0.5s;
+}
+ .partnesList p{
+    font-weight: bold;
+ }
+
+.swiper{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media(min-width:768px){
+    .swiper{
+        width: 60%;
+    }
+}
