@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.aboutContent{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffefe;
+    transition: 0.5s;
+    animation: fadeIn 1s;
+    padding-bottom: 30px;
+}
+
+
+.aboutUs{
+    width: 90%;
+    text-align: justify;
+    padding: 1px;
+    margin-top: 50px;
+    font-size: 16px;
+    color: black;
+    font-weight: 800;
+    animation: fadeIn 1s;
+}
+
+.plansText{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    animation: fadeIn 1s;
+}
+
+.plansCards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    animation: fadeInLeft 1s;
+    transition: 0.5s;
+}
+
+.planList{
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.planTitle{
+    font-size: 21px;
+}
+
+.listDescription{
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.description{
+    font-weight: 700;
+}
+
+.price{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(7, 149, 2);
+}
+
+.signDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign{
+    margin-top: 20px;
+    text-align: center;
+    height: 35px;
+    width: 60%;
+    background-color:#13daa5;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sign:hover{
+    box-shadow: 0px 5px 10px 2.5px #13daa5;
+    border: solid 1px #13daa5;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.oldPrice{
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media(min-width:768px){
+    .aboutContent{
+        height: 600px;
+    }
+
+    .aboutUs{
+        font-size: 20px;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .plansText{
+        margin-top: 30px;
+    }
+
+    .plansCards{
+        flex-direction: row;
+        gap: 35px;
+        margin-top: 20px;
+    }
+}
