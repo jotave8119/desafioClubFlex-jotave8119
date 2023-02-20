@@ -80,7 +80,7 @@
 }
 
 .price{
-    margin-top: 15px;
+    margin-top: 5px;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
@@ -115,6 +115,14 @@
     border: solid 1px #13daa5;
     transform: translateY(-5px);
     transition: 0.5s;
+}
+
+.oldPrice{
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+    text-align: center;
+    margin-top: 20px;
 }
 
 @media(min-width:768px){

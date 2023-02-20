@@ -92,3 +92,8 @@
     color: #ffffff;
  }
 
+ .dark footer{
+    background-color: #323030;
+    box-shadow: #13daa5 0px 3px 8px;
+ }
+
