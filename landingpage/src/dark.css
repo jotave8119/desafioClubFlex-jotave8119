@@ -1,0 +1,60 @@
+.dark {
+    background-color: #323030;
+    transition: 0.5s;
+}
+
+.dark .topbar{
+    background-color: #323030;
+    color: #ffffff;
+    box-shadow: #13daa5 0px 6px 12px -2px, #13daa5 0px 3px 7px -3px;
+}
+.dark .logo{
+    color: #13daa5;
+}
+
+.dark .aboutContent{
+    background-color: #323030;
+}
+
+.dark .aboutUs{
+    color: #ffffff;
+}
+
+.dark .plansText{
+    color: #ffffff;
+}
+
+.dark .plansCards{
+    background-color: #323030;
+}
+
+.dark .planList{
+    background-color: #323030;
+    box-shadow: #13daa5 0px 3px 8px;
+}
+
+.dark .planTitle{
+    color: #ffffff;
+}
+
+.dark .description{
+    color: #ffffff;
+}
+
+.dark .partnesContent{
+    background-color: #323030;
+}
+
+.dark .partnesTitle{
+    color: #ffffff;
+}
+
+.dark .partnesList{
+    background-color: #323030;
+    color: #ffffff;
+    box-shadow: #13daa5 0px 3px 8px;
+}
+
+
+
+
