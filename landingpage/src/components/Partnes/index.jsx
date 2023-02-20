@@ -10,8 +10,8 @@ import "swiper/css/pagination";
 const Partnes = () => {
 
   return (
-    <section className="partnesContent">
-      <h3 className="partnesTitle">Empresas parceiras</h3>
+    <section className="partnesContent" id="partnes">
+      <h3 className="partnesTitle" id="partnes">Empresas parceiras</h3>
       <SwiperComponent 
       modules={[Navigation, Pagination]}  
       spaceBetween={10}
