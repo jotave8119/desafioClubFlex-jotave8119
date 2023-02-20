@@ -76,5 +76,19 @@
     color: #ffffff;
  }
 
+ .dark .form{
+    background-color: #3230308f;
+    color: #ffffff;
+    box-shadow: #13daa5 0px 3px 8px;
+ }
 
+ .dark .form input{
+    color: #ffffff;
+    background-color: #323030;
+    box-shadow: #13daa5 0px 3px 8px;
+ }
+
+ .dark .form .label{
+    color: #ffffff;
+ }
 

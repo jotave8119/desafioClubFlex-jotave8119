@@ -25,7 +25,7 @@
     font-size: 30px;
     font-weight: bold;
     color: #000000;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 /* .partnesCards{
@@ -49,6 +49,7 @@
     flex-direction: column;
     gap: 15px;
     transition: 0.5s;
+    margin-bottom: 15px;
 }
  .partnesList p{
     font-weight: bold;
@@ -60,6 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
     
 }
 

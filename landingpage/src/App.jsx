@@ -6,6 +6,7 @@ import Partnes from './components/Partnes';
 import './App.css';
 import "./dark.css";
 import Depositions from './components/Depositions';
+import ContactForm from './components/ContactForm';
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
      <About/>
      <Partnes/>
      <Depositions/>
+     <ContactForm/>
    </div>
   );
 }
